@@ -1,0 +1,175 @@
+/*LAPTOP*/
+@media(max-width:992px){
+/*navbar*/
+
+/*hero*/
+/*about*/
+/*Skills*/
+/*Experience*/
+/*Projects*/
+/*Certificates*/
+/*Contact*/
+/*Footer*/
+}
+
+/*TABLET*/
+@media (max-width:768px){
+/*navbar*/
+    .navbar .container{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-menu{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-menu{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+    }
+
+    .nav-menu.active{
+        display:flex;
+    }
+
+
+/*hero*/
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-content p{
+        margin:auto;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero-image img{
+        width:250px;
+    }
+
+/*about*/
+.about{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-image img{
+    width:220px;
+}
+
+.about-facts{
+    justify-content:center;
+}
+/*Skills*/
+/*Experience*/
+/*Projects*/
+/*Certificates*/
+/*Contact*/
+/*Footer*/
+}
+
+/*MOBILE*/
+@media(max-width:576px){
+/*navbar*/
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-menu.active{
+    display:flex;
+}
+
+}
+/*hero*/
+/* Hero */
+
+.hero-buttons{
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    width: 180px;
+
+    text-align: center;
+
+}
+/*about*/
+/*Skills*/
+/*Experience*/
+/*Projects*/
+/* PROJECT */
+.project-card{
+    flex-direction: column;
+    padding:20px;
+    gap:20px;
+}
+
+.project-image,
+.project-content{
+    width:100%;
+}
+
+.project-buttons{
+    flex-direction:column;
+}
+
+.project-buttons .btn-primary,
+.project-buttons .btn-secondary{
+    width:100%;
+    text-align:center;
+}
+
+.project-features{
+    grid-template-columns:1fr;
+}
+/*Certificates*/
+.certificate-grid{
+    grid-template-columns:1fr;
+}
+
+.certificate-card a{
+    width:85%;
+    text-align:center;
+}
+.certificate-card img{
+    height:180px;
+    object-fit:cover;
+}
+.project-content p{
+    word-break:break-word;
+}
+/*Contact*/
+/*Footer*/
+
+}
